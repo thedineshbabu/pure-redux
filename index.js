@@ -115,9 +115,9 @@ const store = createStore(rootReducer, applyMiddleware(logger));
 
 // console.log("initial State ", store.getState());
 
-const unsubscribe = store.subscribe(() => {
-    // console.log("current State ", store.getState());
-});
+// const unsubscribe = store.subscribe(() => {
+//     // console.log("current State ", store.getState());
+// });
 
 // console.log("One Cake Sold...");
 
@@ -151,4 +151,4 @@ store.dispatch(buyCake());
 
 store.dispatch(makeIceCream());
 
-unsubscribe();
+// unsubscribe();
