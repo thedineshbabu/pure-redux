@@ -1,7 +1,7 @@
 {
   "name": "redux",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample redux",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redux": "^4.1.1"
+    "redux": "^4.1.1",
+    "redux-logger": "^3.0.6"
   }
 }
